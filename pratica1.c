@@ -8,7 +8,7 @@
 #include "esp_log.h"  // Biblioteca para o sistema de logs do ESP-IDF
 
 // Declaração de uma tag global para identificar o módulo em mensagens de log
-static const char *TAG = "MyModule";  
+static const char *TAG = "Pratica1";  
 
 // Função principal do programa, executada ao iniciar o ESP32
 void app_main(void) {

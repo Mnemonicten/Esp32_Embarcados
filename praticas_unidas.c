@@ -16,7 +16,7 @@
 #define GPIO_INPUT_BTN_2   23 // Botão 2 no GPIO23
 #define ESP_INTR_FLAG_DEFAULT 0
 
-static const char *TAG = "PROJETO_COMBINADO";
+static const char *TAG = "PraticaCombinada";
 static QueueHandle_t gpio_evt_queue = NULL;
 
 // Função de interrupção para o GPIO

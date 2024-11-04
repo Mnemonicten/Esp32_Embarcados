@@ -11,7 +11,7 @@
 #define GPIO_INPUT_BTN_2   23 // Botão 2 no GPIO23
 #define ESP_INTR_FLAG_DEFAULT 0
 
-static const char *TAG = "PROJETO_LED"; // Identificador para o log
+static const char *TAG = "Pratica2"; // Identificador para o log
 static QueueHandle_t gpio_evt_queue = NULL;
 
 static void IRAM_ATTR gpio_isr_handler(void* arg) {
