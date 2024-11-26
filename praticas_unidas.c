@@ -19,6 +19,8 @@
 static const char *TAG = "PraticaCombinada";
 static QueueHandle_t gpio_evt_queue = NULL;
 
+//Pratica 2
+
 // Função de interrupção para o GPIO
 static void IRAM_ATTR gpio_isr_handler(void* arg) {
     uint32_t gpio_num = (uint32_t) arg;
