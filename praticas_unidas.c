@@ -55,6 +55,8 @@ static void gpio_task_example(void* arg) {
     }
 }
 
+//Pratica 1
+
 // Função para coleta e exibição de informações do chip
 void display_chip_info() {
     ESP_LOGI(TAG, "Iniciando o sistema e coletando informações do chip...");
